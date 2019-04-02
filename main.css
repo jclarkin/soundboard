@@ -1,0 +1,35 @@
+body {
+  background-color: grey;
+  /* spencer-imbrock-487035-unsplash */
+  background-image: url('wallpaper.jpg');
+  background-size: cover;
+}
+.keys {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.key {
+  display: inline;
+  padding: 20px;
+  margin: 4px;
+  border: 2px solid black;
+  max-width: 50%;
+  background-color: rgba(102, 51, 153, 0.6);
+  transition: all .07s ease;
+  color: white;
+}
+.key span {
+  font-size: 70%;
+  color: goldenrod;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
